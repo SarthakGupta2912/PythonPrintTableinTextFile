@@ -27,8 +27,7 @@ while True:
         number = int(input ("Enter a number to write the table in the created file: "))
 
     except ValueError:
-        print('Please enter an integer value only!')
-        continue
+        print('Please enter an integer value only and do not put space in between or do not leave the the value blank!')
     
     else:
         break

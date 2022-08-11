@@ -27,7 +27,7 @@ while True:
         number = int(input ("Enter a number to create a table file: "))
 
     except ValueError:
-        print('Please enter an integer value only and the input should not be blank or have space in between!')
+        print('Please enter an integer value only!')
         continue
     
     else:
@@ -35,6 +35,5 @@ while True:
 
 for i in range(1,11):
     textFile.write(str(number) + ' X '+ str(i) + ' = ' + str(number*i) + '\n')
-    print(str(number) + ' X '+ str(i) + ' = ' + str(number*i))
     
-print('Program completed successfully!')    
+print('Program completed successfully, please check the file in the current directory!')    

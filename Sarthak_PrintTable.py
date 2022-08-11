@@ -4,7 +4,7 @@ characterNotAllowedList.append(list(characterNotAllowed))
 
 while True:
 
-   textFileName = str(input ("Enter the file name: "))
+   textFileName = str(input ("\nEnter the file name: "))
    wrongCharCounter = 0
 
    for _characterNotAllowedElement in list(characterNotAllowed):
@@ -24,7 +24,7 @@ while True:
 
 while True:
     try:
-        number = int(input ("Enter a number to create a table file: "))
+        number = int(input ("Enter a number to write the table in the created file: "))
 
     except ValueError:
         print('Please enter an integer value only!')
